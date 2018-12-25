@@ -56,3 +56,15 @@ WorkingDirectory=/home/[YOUR_USERNAME]/.config/msirgbd
 [Install]
 WantedBy=multi-user.target
 ```
+
+## Web Interface
+You can access the web interface on `http://localhost:40000/`.
+
+If you want to access it from different devices or change the port, modify msirgbd.py.
+```
+daemon.run(host="0.0.0.0", port=40000)
+```
+Remember that you need root for opening ports < 1024.
+
+## License
+This project uses the MIT License, see `LICENSE` for more details.
