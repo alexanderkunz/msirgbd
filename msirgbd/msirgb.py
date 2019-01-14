@@ -74,9 +74,9 @@ def get_cmd_fmt(r1, r2, r3, r4, g1, g2, g3, g4, b1, b2, b3, b4, args=""):
 
 def get_cmd_color(r: int, g: int, b: int, args=""):
     args = (
-        "{:01X}".format(int(r / 255 * 15.999)) * 8,
-        "{:01X}".format(int(g / 255 * 15.999)) * 8,
-        "{:01X}".format(int(b / 255 * 15.999)) * 8,
+        "{:01X}".format(round(r / 255 * 15.999)) * 8,
+        "{:01X}".format(round(g / 255 * 15.999)) * 8,
+        "{:01X}".format(round(b / 255 * 15.999)) * 8,
         args
     )
     return " ".join(args)
