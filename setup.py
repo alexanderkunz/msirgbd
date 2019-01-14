@@ -6,7 +6,8 @@ from setuptools import setup
 
 requires = [
     'bottle',
-    'noise'
+    'noise',
+    'psutil'
 ]
 if sys.version_info < (3, 7):
     sys.exit("Python 3.7 or newer is required to run this program.")

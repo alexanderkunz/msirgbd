@@ -1,7 +1,8 @@
 import bottle
 import logging
 import pickle
-import sys, threading
+import sys
+import threading
 from .log import setup_logging
 from . import msirgb, tasks, res
 
@@ -90,6 +91,17 @@ class MSIRGBDaemon(bottle.Bottle):
                 red=r,
                 green=g,
                 blue=b
+            ))
+            return index()
+
+        @self.route("/cpu_load/<r:int>/<g:int>/<b:int>/<color_min:int>/<color_max:int>")
+        def cpu_load(r, g, b, color_min, color_max):
+            self.set_task(tasks.CPULoadTask(
+                red=r,
+                green=g,
+                blue=b,
+                color_min=color_min / 255.0,
+                color_max=color_max / 255.0
             ))
             return index()
 

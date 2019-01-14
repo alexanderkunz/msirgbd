@@ -38,7 +38,7 @@ INDEX = """
 
         .head {
             color: black;
-            padding: 5px 11px;
+            padding: 4px 11px;
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
@@ -145,40 +145,54 @@ INDEX = """
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/color/0/0/0/0'" class="head" value="Off">
                 </td>
             </tr>
         </table>
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/color/255/0/0/0'" class="head b_red" value="Red255">
-                    <input type=button onClick="location.href='/color/0/255/0/0'" class="head b_green" value="Green255">
-                    <input type=button onClick="location.href='/color/0/0/255/0'" class="head b_blue" value="Blue255">
-                    <input type=button onClick="location.href='/color/255/255/255/0'" class="head b_white" value="White255">
-                    <input type=button onClick="location.href='/color/255/255/0/0'" class="head b_yellow" value="Yellow255">
+                    <input type=button onClick="location.href='/color/255/0/0/0'" class="head b_red"
+                           value="Red255">
+                    <input type=button onClick="location.href='/color/0/255/0/0'" class="head b_green"
+                           value="Green255">
+                    <input type=button onClick="location.href='/color/0/0/255/0'" class="head b_blue"
+                           value="Blue255">
+                    <input type=button onClick="location.href='/color/255/255/255/0'" class="head b_white"
+                           value="White255">
+                    <input type=button onClick="location.href='/color/255/255/0/0'" class="head b_yellow"
+                           value="Yellow255">
                 </td>
             </tr>
         </table>
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/color/64/0/0/0'" class="head b_red" value="Red64">
-                    <input type=button onClick="location.href='/color/0/64/0/0'" class="head b_green" value="Green64">
-                    <input type=button onClick="location.href='/color/0/0/64/0'" class="head b_blue" value="Blue64">
-                    <input type=button onClick="location.href='/color/64/64/64/0'" class="head b_white" value="White64">
-                    <input type=button onClick="location.href='/color/64/64/0/0'" class="head b_yellow" value="Yellow64">
+                    <input type=button onClick="location.href='/color/64/0/0/0'" class="head b_red"
+                           value="Red64">
+                    <input type=button onClick="location.href='/color/0/64/0/0'" class="head b_green"
+                           value="Green64">
+                    <input type=button onClick="location.href='/color/0/0/64/0'" class="head b_blue"
+                           value="Blue64">
+                    <input type=button onClick="location.href='/color/64/64/64/0'" class="head b_white"
+                           value="White64">
+                    <input type=button onClick="location.href='/color/64/64/0/0'" class="head b_yellow"
+                           value="Yellow64">
                 </td>
             </tr>
         </table>
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/color/16/0/0/0'" class="head b_red" value="Red16">
-                    <input type=button onClick="location.href='/color/0/16/0/0'" class="head b_green" value="Green16">
-                    <input type=button onClick="location.href='/color/0/0/16/0'" class="head b_blue" value="Blue16">
-                    <input type=button onClick="location.href='/color/16/16/16/0'" class="head b_white" value="White16">
-                    <input type=button onClick="location.href='/color/16/16/0/0'" class="head b_yellow" value="Yellow16">
+                    <input type=button onClick="location.href='/color/16/0/0/0'" class="head b_red"
+                           value="Red16">
+                    <input type=button onClick="location.href='/color/0/16/0/0'" class="head b_green"
+                           value="Green16">
+                    <input type=button onClick="location.href='/color/0/0/16/0'" class="head b_blue"
+                           value="Blue16">
+                    <input type=button onClick="location.href='/color/16/16/16/0'" class="head b_white"
+                           value="White16">
+                    <input type=button onClick="location.href='/color/16/16/0/0'" class="head b_yellow"
+                           value="Yellow16">
                 </td>
             </tr>
         </table>
@@ -187,33 +201,48 @@ INDEX = """
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/color/255/0/0/1'" class="head b_red" value="Red255">
-                    <input type=button onClick="location.href='/color/0/255/0/1'" class="head b_green" value="Green255">
-                    <input type=button onClick="location.href='/color/0/0/255/1'" class="head b_blue" value="Blue255">
-                    <input type=button onClick="location.href='/color/255/255/255/1'" class="head b_white" value="White255">
-                    <input type=button onClick="location.href='/color/255/255/0/1'" class="head b_yellow" value="Yellow255">
+                    <input type=button onClick="location.href='/color/255/0/0/1'" class="head b_red"
+                           value="Red255">
+                    <input type=button onClick="location.href='/color/0/255/0/1'" class="head b_green"
+                           value="Green255">
+                    <input type=button onClick="location.href='/color/0/0/255/1'" class="head b_blue"
+                           value="Blue255">
+                    <input type=button onClick="location.href='/color/255/255/255/1'" class="head b_white"
+                           value="White255">
+                    <input type=button onClick="location.href='/color/255/255/0/1'" class="head b_yellow"
+                           value="Yellow255">
                 </td>
             </tr>
         </table>
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/color/64/0/0/1'" class="head b_red" value="Red64">
-                    <input type=button onClick="location.href='/color/0/64/0/1'" class="head b_green" value="Green64">
-                    <input type=button onClick="location.href='/color/0/0/64/1'" class="head b_blue" value="Blue64">
-                    <input type=button onClick="location.href='/color/64/64/64/1'" class="head b_white" value="White64">
-                    <input type=button onClick="location.href='/color/64/64/0/1'" class="head b_yellow" value="Yellow64">
+                    <input type=button onClick="location.href='/color/64/0/0/1'" class="head b_red"
+                           value="Red64">
+                    <input type=button onClick="location.href='/color/0/64/0/1'" class="head b_green"
+                           value="Green64">
+                    <input type=button onClick="location.href='/color/0/0/64/1'" class="head b_blue"
+                           value="Blue64">
+                    <input type=button onClick="location.href='/color/64/64/64/1'" class="head b_white"
+                           value="White64">
+                    <input type=button onClick="location.href='/color/64/64/0/1'" class="head b_yellow"
+                           value="Yellow64">
                 </td>
             </tr>
         </table>
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/color/16/0/0/1'" class="head b_red" value="Red16">
-                    <input type=button onClick="location.href='/color/0/16/0/1'" class="head b_green" value="Green16">
-                    <input type=button onClick="location.href='/color/0/0/16/1'" class="head b_blue" value="Blue16">
-                    <input type=button onClick="location.href='/color/16/16/16/1'" class="head b_white" value="White16">
-                    <input type=button onClick="location.href='/color/16/16/0/1'" class="head b_yellow" value="Yellow16">
+                    <input type=button onClick="location.href='/color/16/0/0/1'" class="head b_red"
+                           value="Red16">
+                    <input type=button onClick="location.href='/color/0/16/0/1'" class="head b_green"
+                           value="Green16">
+                    <input type=button onClick="location.href='/color/0/0/16/1'" class="head b_blue"
+                           value="Blue16">
+                    <input type=button onClick="location.href='/color/16/16/16/1'" class="head b_white"
+                           value="White16">
+                    <input type=button onClick="location.href='/color/16/16/0/1'" class="head b_yellow"
+                           value="Yellow16">
                 </td>
             </tr>
         </table>
@@ -222,10 +251,14 @@ INDEX = """
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/hue/1'" class="head b_green" value="Slow">
-                    <input type=button onClick="location.href='/hue/10'" class="head b_green" value="Normal">
-                    <input type=button onClick="location.href='/hue/25'" class="head b_green" value="Fast">
-                    <input type=button onClick="location.href='/hue/100'" class="head b_red" value="Insane">
+                    <input type=button onClick="location.href='/hue/1'" class="head b_green"
+                           value="Slow">
+                    <input type=button onClick="location.href='/hue/10'" class="head b_green"
+                           value="Normal">
+                    <input type=button onClick="location.href='/hue/25'" class="head b_green"
+                           value="Fast">
+                    <input type=button onClick="location.href='/hue/100'" class="head b_red"
+                           value="Insane">
                 </td>
             </tr>
         </table>
@@ -234,9 +267,40 @@ INDEX = """
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/heartbeat'" class="head b_yellow" value="Heartbeat">
-                    <input type=button onClick="location.href='/police'" class="head b_yellow" value="Police">
-                    <input type=button onClick="location.href='/easter'" class="head b_yellow" value="Happy Easter">
+                    <input type=button onClick="location.href='/heartbeat'" class="head b_yellow"
+                           value="Heartbeat">
+                    <input type=button onClick="location.href='/police'" class="head b_yellow"
+                           value="Police">
+                    <input type=button onClick="location.href='/easter'" class="head b_yellow"
+                           value="Happy Easter">
+                    <input type=button onClick="location.href='/color/0/0/0/0'" class="head"
+                           value="Off">
+                </td>
+            </tr>
+        </table>
+        
+        <h3>CPU Load</h3>
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type=button onClick="location.href='/cpu_load/255/0/0/16/255'" class="head b_red"
+                           value="Red255">
+                    <input type=button onClick="location.href='/cpu_load/0/255/0/16/255'" class="head b_green"
+                           value="Green255">
+                    <input type=button onClick="location.href='/cpu_load/0/0/255/16/255'" class="head b_blue"
+                           value="Blue255">
+                    <input type=button onClick="location.href='/cpu_load/255/255/255/16/255'" class="head b_white"
+                           value="White255">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type=button onClick="location.href='/perlin/255/255/0/16/255'" class="head b_red"
+                           value="RedGreen255">
+                    <input type=button onClick="location.href='/perlin/0/255/255/16/255'" class="head b_red"
+                           value="GreenBlue255">
+                    <input type=button onClick="location.href='/perlin/255/0/255/16/255'" class="head b_red"
+                           value="RedBlue255">
                 </td>
             </tr>
         </table>
@@ -245,17 +309,24 @@ INDEX = """
         <table>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/perlin/70/255/0/0'" class="head b_red" value="Red255">
-                    <input type=button onClick="location.href='/perlin/70/0/255/0'" class="head b_green" value="Green255">
-                    <input type=button onClick="location.href='/perlin/70/0/0/255'" class="head b_blue" value="Blue255">
-                    <input type=button onClick="location.href='/perlin/70/255/255/255'" class="head b_white" value="White255">
+                    <input type=button onClick="location.href='/perlin/70/255/0/0'" class="head b_red"
+                           value="Red255">
+                    <input type=button onClick="location.href='/perlin/70/0/255/0'" class="head b_green"
+                           value="Green255">
+                    <input type=button onClick="location.href='/perlin/70/0/0/255'" class="head b_blue"
+                           value="Blue255">
+                    <input type=button onClick="location.href='/perlin/70/255/255/255'" class="head b_white"
+                           value="White255">
                 </td>
             </tr>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/perlin/20/255/255/0'" class="head b_red" value="RedGreen255">
-                    <input type=button onClick="location.href='/perlin/20/0/255/255'" class="head b_red" value="GreenBlue255">
-                    <input type=button onClick="location.href='/perlin/20/255/0/255'" class="head b_red" value="RedBlue255">
+                    <input type=button onClick="location.href='/perlin/20/255/255/0'" class="head b_red"
+                           value="RedGreen255">
+                    <input type=button onClick="location.href='/perlin/20/0/255/255'" class="head b_red"
+                           value="GreenBlue255">
+                    <input type=button onClick="location.href='/perlin/20/255/0/255'" class="head b_red"
+                           value="RedBlue255">
                 </td>
             </tr>
         </table>
