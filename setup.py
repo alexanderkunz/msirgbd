@@ -17,7 +17,7 @@ setup(
     python_requires=">3.7",
     description='Daemon for the msi-rgb tool with web interface.',
     long_description='Daemon for the msi-rgb tool with web interface.',
-    version='1.0',
+    version='1.1',
     entry_points={
         'console_scripts': ['msirgbd=msirgbd:main'],
     },
