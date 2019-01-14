@@ -295,11 +295,11 @@ INDEX = """
             </tr>
             <tr>
                 <td colspan="4">
-                    <input type=button onClick="location.href='/perlin/255/255/0/16/255'" class="head b_red"
+                    <input type=button onClick="location.href='/cpu_load/255/255/0/16/255'" class="head b_red"
                            value="RedGreen255">
-                    <input type=button onClick="location.href='/perlin/0/255/255/16/255'" class="head b_red"
+                    <input type=button onClick="location.href='/cpu_load/0/255/255/16/255'" class="head b_red"
                            value="GreenBlue255">
-                    <input type=button onClick="location.href='/perlin/255/0/255/16/255'" class="head b_red"
+                    <input type=button onClick="location.href='/cpu_load/255/0/255/16/255'" class="head b_red"
                            value="RedBlue255">
                 </td>
             </tr>
